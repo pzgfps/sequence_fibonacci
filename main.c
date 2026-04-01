@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int fibonacci(int f) {
-    if (f == 1) {
-        return 1;
-    }
-    if (f == 2) {
+    if (f == 1 || f == 2) {
         return 1;
     }
 
